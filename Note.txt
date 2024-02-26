@@ -1,0 +1,7 @@
+Appears current Delays we're observing is coming from the fact I cannot for some reason get PWM to work correctly and servos working for the Nvidia Jetson nano due to those damn permissions. 
+
+Everything is being transmitted to the arduino in fast enough time, so increasing the BAUD rate isn't going to help me TOO much, the main problem is the libraries doing whatever they are doing in the background, taking up SO much time. COULD be a "Not enough power" issue, Not sure. :/ 
+
+All I know for sure it's the execution of the arduino code that is the slow part. Everything else appears snappy (fast) enough as-is, but could be improved upon later down the line
+
+-NIC_ 1/24/2024 (@ 9:23PM) 

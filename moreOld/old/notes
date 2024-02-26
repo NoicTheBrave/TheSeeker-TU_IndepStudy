@@ -1,0 +1,16 @@
+Current 2 links that have been helpful: 
+
+
+Shows what I needed to ENABLE to get PWM working: 
+https://www.youtube.com/watch?v=f68QG5I7vec
+
+
+Actually shows us USING it (yes, even NVIDIA's library for this uses RPI's lib, apparently) 
+	- Still getting sine waves tho, not sure y... (SimplePWM python file is what is giving me atm a sign wave... but it something I suppose :/ ) 
+
+
+
+The Library (not related to video) : https://github.com/NVIDIA/jetson-gpio
+
+The video (uses RPI library, same as the demo), but gets it to work on the jetson nanbo : 
+(Skip ahead around to like ~25:00 - ~30:00 min and you'll see what I mean) 
