@@ -33,3 +33,7 @@ For this demo, I used a Raspberry Pi inorder to control the steering servo of th
   * WARNING: "The VCC pin is just power for the chip itself. If you want to connect servos or LEDs that use the V+ pins, you MUST connect the V+ pin as well. The V+ pin can be as high as 6V even if VCC is 3.3V (the chip is 5V safe). We suggest connecting power through the blue terminal block since it is polarity protected."
  
   * 
+
+
+# notes - for the dev: 
+* The core purpose of this thing is to be able to , idealy, preform ROS and cotnrol the car w/ ROS. Unfortunately, due to time constraints, I was not able to implement this on the Nvidia Jetsion, however, due to time constraints, this was the most time-efficient solution I developed. With this in mind, via USB-Serial and other methods, it is still possible to communicate and pass data from the Nvidia Jetson to the Raspberry Pi bidirectionally as need be. I believe there *is* some method avaliable for this software to operate on the Nvidia Jetsion for GPIO, however once more due to time constraints, was not able to explore that domain of the project, simply getting this operational was difficult as it was. 
