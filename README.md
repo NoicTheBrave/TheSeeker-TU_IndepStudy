@@ -28,6 +28,6 @@ For this demo, I used a Raspberry Pi inorder to control the steering servo of th
 ![alt text](https://github.com/NoicTheBrave/TheSeeker-TU_IndepStudy/blob/main/images/rasPi_IndepStudyWiringDiagram.png?raw=true)
 
 * (optional):
-* * NOTE: You can technically on the PCA9685 board connect the V+ pin to the VCC pin, however, this is not recommended unless you are certain that your external power supply is operating at 5V. The VCC pin powers the chips on the PCA9685 board while the V+ pin is to power the GPIO 5V power pins for servos and other connected peripherials. (there is a reason the manufacturer did not simply connect these lines directly together. Use this tip with caution and @ your own disgression, I am not responcible for your actions :)
+* * NOTE: You can technically on the PCA9685 board connect the V+ pin to the VCC pin, however, this is not recommended unless you are certain that your external power supply is operating at 5V. The VCC pin powers the chips on the PCA9685 board while the V+ pin is to power the GPIO 5V power pins for servos and other connected peripherials. (there is a reason the manufacturer did not simply connect these lines directly together. Use this tip with caution and @ your own discretion, I am not responcible for your actions :)
  
   * 
