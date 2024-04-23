@@ -12,9 +12,10 @@ For this demo, I used a Raspberry Pi inorder to control the steering servo of th
 # Hardware Requirements: 
 * Raspberry Pi 3B (3B+ according to the image file's host site, can be used, Ras Pi 4B does NOT work, despite what Eit tells you)
 * PCA9685 16 Channel PWM Servo Driver Board (12 bit IIC Interface Module Compatible with Arduino and Raspberry Pi)
-* DC Power Supply (5V output - External Supply needed for
+* DC Power Supply (5V output - External Supply needed for PCA9685 board in order to power servo(s?))
 * Raspberry Pi Power Supply (for the Pi 3B or comperable power supply) 
 * Female-to-Male Doupont Cables (@ minimum, 6-8 are recommended, additional cables are encouraged if buying))
 * Female-to-Female Doupont Cables (@ minimum, 4 are needed)
 * 22 gauge wire (Used for the PCA9685 board's external power connection - 2 male-to-male Doupont can be used if nessisary)
 
+# Wiring Diagram: 
