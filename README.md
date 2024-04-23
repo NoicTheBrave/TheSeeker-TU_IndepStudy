@@ -19,3 +19,4 @@ For this demo, I used a Raspberry Pi inorder to control the steering servo of th
 * 22 gauge wire (Used for the PCA9685 board's external power connection - 2 male-to-male Doupont can be used if nessisary)
 
 # Wiring Diagram: 
+![alt text](https://github.com/NoicTheBrave/TheSeeker-TU_IndepStudy/blob/main/images/rasPi_IndepStudyWiringDiagram.png?raw=true)
