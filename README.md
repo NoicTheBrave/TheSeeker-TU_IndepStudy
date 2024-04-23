@@ -20,7 +20,7 @@ For this demo, I used a Raspberry Pi inorder to control the steering servo of th
 
 # Wiring: 
 * Wiring the demo circuit is simple for connecting the Raspberry Pi to the PCA9685 board:
-* * 5V -> VCC (optional)
+* * 5V -> VCC (optional - see below)
   * GND -> GND
   * SDA -> SDA
   * SCL -> SCL
